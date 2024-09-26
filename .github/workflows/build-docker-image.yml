@@ -1,6 +1,5 @@
 name: Build and publish Docker image
 on: [push]
-
 env:
   REGISTRY: ghcr.io
   # make sure the name is lowercase, otherwise Docker won't accept it
