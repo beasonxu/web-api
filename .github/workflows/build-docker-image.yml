@@ -4,7 +4,7 @@ on: [push]
 env:
   REGISTRY: ghcr.io
   # make sure the name is lowercase, otherwise Docker won't accept it
-  IMAGE_NAME: teamnewpipe/web-api
+  IMAGE_NAME: beasonxu/web-api
 jobs:
   build:
     runs-on: ubuntu-latest
